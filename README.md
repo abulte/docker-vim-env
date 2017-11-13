@@ -7,7 +7,7 @@ Based on Alpine. Install vim Janus distribution with my preferences in
 
 ```
 docker build -t devenv --rm .
-docker run -it devenv /host/path/to/code
+./start-ide.sh /host/path/to/code
 ```
 
 ## TODO
