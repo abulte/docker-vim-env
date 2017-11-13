@@ -9,5 +9,4 @@ RUN cd .vim && rake && cd ..
 WORKDIR /root/.janus/
 RUN git clone https://github.com/vim-scripts/indentpython.vim.git
 RUN git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
-RUN git clone https://github.com/vim-syntastic/syntastic.git
 ENTRYPOINT ["/opt/start.sh"]
